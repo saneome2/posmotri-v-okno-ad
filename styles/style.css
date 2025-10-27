@@ -1,4 +1,3 @@
-/* --- СБРОС И БАЗОВЫЕ НАСТРОЙКИ --- */
 *,
 *::before,
 *::after {
@@ -41,7 +40,6 @@ ol {
   list-style: none;
 }
 
-/* --- КАСТОМНЫЙ СКРОЛЛ --- */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
@@ -54,7 +52,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-/* --- ЛЕЙАУТ --- */
 .content {
   display: grid;
   grid-template-areas: "result details";
@@ -76,7 +73,6 @@ ol {
   width: 100%;
 }
 
-/* --- ВИДЕО --- */
 .result__video-container {
   width: 711px;
   height: 386px;
@@ -90,7 +86,6 @@ ol {
   object-fit: cover;
 }
 
-/* --- SEARCH FORM --- */
 .search-form {
   display: flex;
   justify-content: space-between;
@@ -168,7 +163,6 @@ ol {
   text-decoration: underline;
 }
 
-/* --- КНОПКИ --- */
 .button {
   font-family: inherit;
   font-size: 18px;
@@ -196,20 +190,17 @@ ol {
   outline-offset: 2px;
 }
 
-/* КНОПКА НАЙТИ */
 .search-form__submit-button {
   align-self: flex-end;
   width: 194px;
   height: 34px;
 }
 
-/* КНОПКА ПОКАЗАТЬ ЕЩЁ */
 .more-button {
   width: 100%;
   height: 34px;
 }
 
-/* --- СПИСОК КАРТОЧЕК --- */
 .content__list-container {
   height: 298px;
   overflow-y: auto;
@@ -223,7 +214,6 @@ ol {
   padding: 0 3px;
 }
 
-/* --- КАРТОЧКИ --- */
 .content__list-item {
   padding: 0 3px;
 }
@@ -281,7 +271,6 @@ ol {
   overflow: hidden;
 }
 
-/* --- ТЕКСТЫ --- */
 .title {
   font-size: 75px;
   font-weight: 700;
@@ -293,7 +282,6 @@ ol {
   color: #545050;
 }
 
-/* --- ВИЗУАЛЬНО СКРЫТЫЕ ЭЛЕМЕНТЫ --- */
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -304,14 +292,12 @@ ol {
   white-space: nowrap;
 }
 
-/* --- КУРСОРЫ --- */
 .button,
 .search-form__label,
 .content__card-link {
   cursor: pointer;
 }
 
-/* --- ПРЕЛОАДЕРЫ --- */
 .result__video-container,
 .content__list-container {
   position: relative;
